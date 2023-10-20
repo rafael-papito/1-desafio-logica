@@ -1,7 +1,20 @@
-let pontosDeVida = 0
+let nameHeroi = "Lokura"
+let xp = 8000
 
-for(let i = 0; i <=10; i++){
-    pontosDeVida +=1  
-    console.log(pontosDeVida + " Tomou a birita")  
+if (xp < 1000){
+    console.log("O Herói de nome " + nameHeroi + " está no nível Ferro (" + xp + "xp)")
+}else if (xp >= 1001, xp <= 2000){
+    console.log("O Herói de nome " + nameHeroi + " está no nível Bronze (" + xp + "xp)")
+}else if (xp >= 2001, xp <= 5000){
+    console.log("O Herói de nome " + nameHeroi + " está no nível Prata (" + xp + "xp)")
+}else if (xp >= 6001, xp <= 7000){
+    console.log("O Herói de nome " + nameHeroi + " está no nível Ouro (" + xp + "xp)")
+}else if (xp >= 7001, xp <= 8000){
+    console.log("O Herói de nome " + nameHeroi + " está no nível Platina (" + xp + "xp)")
+}else if (xp >= 8001, xp <= 9000){
+    console.log("O Herói de nome " + nameHeroi + " está no nível Acendente (" + xp + "xp)")
+}else if (xp >= 9001, xp <= 10000){
+    console.log("O Herói de nome " + nameHeroi + " está no nível Imortal (" + xp + "xp)")
+}else if (xp >= 10001){
+    console.log("O Herói de nome " + nameHeroi + " está no nível Radiante (" + xp + "xp)")
 }
-console.log("lokura")
